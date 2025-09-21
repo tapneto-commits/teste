@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -9,7 +9,7 @@
     <link rel="stylesheet" href=".estilo/style.css">
     <link rel="stylesheet" href=".estilo/media-query.css">
 </head>
-<!-- <body onresize="mudouTamanho()"> -->
+
 <header>
     <h1>ArtesIara</h1>
     <i id="burguer" class="material-symbols-outlined" onclick="clickMenu ()">menu</i>
@@ -33,8 +33,9 @@
         </ul>
     </menu>  
 </header>
-<body onresize="mudouTamanho()"></body>
-<main>
+
+<body onresize="mudouTamanho()">
+<main>  '                                       '
     <article>
         <h2>Minha história</h2>
     <p>
@@ -46,16 +47,17 @@
          <figure class="fotoiara"><img src=".img/home/Iara.jpg" alt=""></figure>
 
     <h2>Trabalho de Conclusão de Curso - TCC</h2>  
-    <br>
-    <h2>Fazendo das Tripas Coração</h2> 
-    <figure class="tcc">
+   
+    <h3>Fazendo das Tripas Coração</h3> 
+            <div class="fotos">
             <img src=".img/home/TCC.jpg" alt="">
             <img src=".img/home/tripaseca.jpg" alt="">
             <img src=".img/home/tripaseca1.jpg" alt="">
             <img src=".img/home/trpaseca2.jpg" alt="">
-    </figure>
+            </div>
     </article>
 </main>
+
 <script>
     function mudouTamanho() {
         if(window.innerWidth >= 768) {
@@ -71,10 +73,10 @@
       }
     }
 </script>
+</body>
 <footer>
     <p>Ateliêr: Rua Madalena Barbi,  -Centro-Florianopolis-SC</p>
    
     <p>Responsavel: Tomaz Pontes Neto</p>
 </footer>
-</body>
 </html>
