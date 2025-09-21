@@ -30,9 +30,17 @@ header {
     top: 0;
 }
 
-header h1, h6 {
+header h1 {
     font-family: var(--fonte1);
     font-size: 30px;
+    color: chocolate;
+    padding: 0px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+header h6 {
+    font-family: var(--fonte1);
+    font-size: 15px;
     color: chocolate;
     padding: 0px;
     text-align: center;
