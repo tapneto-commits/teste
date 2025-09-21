@@ -26,9 +26,11 @@ body {
 
 header {
     background-color: rgba(250, 235, 215, 0.692);
+    position: sticky;
+    top: 0;
 }
 
-header h1 {
+header h1, h6 {
     font-family: var(--fonte1);
     font-size: 30px;
     color: chocolate;
