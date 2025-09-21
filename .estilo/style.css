@@ -1,0 +1,93 @@
+@charset "UTF-8"
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Passion+One:wght@400;700;900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sriracha&display=swap');
+
+:root {
+   --fonte1:"Dancing Script", cursive; 
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: white;
+    
+}
+
+/* body {
+    background: white url(#) no-repeat;
+    background-position: center center;
+} */
+
+header {
+    background-color: rgba(250, 235, 215, 0.692);
+}
+
+header h1 {
+    font-family: var(--fonte1);
+    font-size: 30px;
+    color: chocolate;
+    padding: 0px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+i#burguer {
+    background-color: rgb(48,48,48);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+i#burguer:hover {
+    background-color: white;
+    color:black;
+}
+
+menu {
+    display: block;
+}
+.drop {
+    text-align: center;
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color:antiquewhite;
+    color: black;
+    border-top: 2px solid black;
+}
+
+menu > ul > li > a:hover {
+    background-color: gray;
+}
+
+   
+main {
+    width: 90vw;
+    background-color: rgba(250, 235, 215, 0.692);
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+article > h2 {
+    padding-bottom: 20px;
+}
+article > p {
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 20px;
+}
