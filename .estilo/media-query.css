@@ -9,12 +9,11 @@
         display: block;
     }
 
-    menu > ul > li {
+    /* menu > ul > li {
     display: inline-block;
     /* width: 150px;
-} */
-
-}    
+} */ */
+   
     main {
     width: 1100px;
 }
